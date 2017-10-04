@@ -10,7 +10,7 @@ if [ "$1" = "" ]; then
 fi
 
 # Required: The latest version.
-VERSION='v1.0.1'
+VERSION='v1.0.2'
 
 # Output directory is created
 OUTDIR="release"
