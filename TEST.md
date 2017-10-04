@@ -2,11 +2,12 @@
 ====
 数値計算の精度を既存の数値計算の結果と比較することで行う。<br>
 比較対象はFO-29のTLEを用いて数値計算を行っているJR1HUOさんのホームページに乗せられているデータである。<br>
+[数値計算の数値例](http://jr1huo.my.coocan.jp/jr1huo_calsat32/Calsat32Sample.htm)(JR1HUOさんのホームページより)<br>
 
 結論から言うと、元期から3日程度経過した時点でも方位と仰角の誤差はともに一度未満とよく一致している。<br>
 計算の結果に若干の違いがあるが、これは計算の例が緯度経度を日本測地系で計算しているのに対し、このライブラリはWGS-84の緯度経度を用いて計算を行っていることが原因と考えられる。
 
-[数値計算の数値例](http://jr1huo.my.coocan.jp/jr1huo_calsat32/Calsat32Sample.htm)(JR1HUOさんのホームページより)<br>
+サンプルプログラム(test.cc)の実行結果
 ----
 ```
 TLE used for the calculation.
