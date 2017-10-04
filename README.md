@@ -35,23 +35,23 @@ Windowsの場合には、開発者コマンドプロンプトや[Cygwin](https:/
 
 方法1: ダウンロード
 ------
-[releaseページ](https://github.com/mkaminaga/sat2/releases)からzipファイルをダウンロードし、適当なディレクトリに展開する。<br>
+[releaseページ](https://github.com/mkaminaga/sat/releases)からzipファイルをダウンロードし、適当なディレクトリに展開する。<br>
 
 方法2: クローン & ビルド -> スタティックリンクライブラリの作成
 ----
 
 clの場合
 ```
-$ git clone https://github.com/mkaminaga/sat2
-$ cd sat2
+$ git clone https://github.com/mkaminaga/sat
+$ cd sat
 $ vim sat_windows.mk
 $ nmake /f sat_windows.mk | iconv -f cp932 -t utf-8
 ```
 
 gccの場合
 ```
-$ git clone https://github.com/mkaminaga/sat2
-$ cd sat2
+$ git clone https://github.com/mkaminaga/sat
+$ cd sat
 $ make -f sat.mk
 ```
 
@@ -68,14 +68,14 @@ makefileは必要に応じて書き換えること。<br>
 
 clの場合
 ```
-$ cd sat2
-$ nmake /f makefile_vc.mk | iconv -f cp932 -t utf-8
+$ cd sat
+$ nmake /f makefile_windows.mk | iconv -f cp932 -t utf-8
 $ ./test.exe
 ```
 
 gccの場合
 ```
-$ cd sat2
+$ cd sat
 $ make
 $ ./test.exe
 ```
