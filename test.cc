@@ -1,5 +1,5 @@
 ﻿  // @brief The test program for this library.
-  // TLE comes from http://www.celestrak.com/publications/AIAA/2006-6753/.
+  // TLE comes from http://www.celestrak.com/
   // @author Mamoru Kaminaga
   // @date 2017-09-08 16:05:35
   // Copyright 2017 Mamoru Kaminaga
